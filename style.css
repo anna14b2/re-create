@@ -8,102 +8,111 @@ body {
   background-color: #db524d;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-}
-main > section {
-  grid-column: 2/3;
-}
-
-header {
-  background-color: #db524d;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 15rem 1rem 15rem;
-  border-bottom: 1px solid #bb342b;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Nunito", sans-serif;
 }
 
-header h2 {
-  color: #fff;
-}
+@media (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  }
+  main > section {
+    grid-column: 2/3;
+  }
 
-header ul li {
-  list-style: none;
-  text-decoration: none;
-}
+  header {
+    background-color: #db524d;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 15rem 1rem 15rem;
+    border-bottom: 1px solid #bb342b;
+  }
 
-header ul li a {
-  padding: 1rem;
-  text-decoration: none;
-  color: #fff;
-}
+  header h2 {
+    color: #fff;
+  }
 
-section {
-  background-color: #db524d;
-  color: #fff;
-}
+  header ul li {
+    list-style: none;
+    text-decoration: none;
+  }
 
-.buttons ul {
-  list-style: none;
-  display: flex;
-  place-content: center;
-}
+  header ul li a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
 
-.buttons ul li {
-  padding: 1rem;
-}
+  section {
+    background-color: #db524d;
+    color: #fff;
+  }
 
-.timer {
-  display: flex;
-  place-content: center;
-}
+  .buttons ul {
+    list-style: none;
+    display: flex;
+    place-content: center;
+  }
 
-.button {
-  display: flex;
-  place-content: center;
-}
+  .buttons ul li {
+    padding: 1rem;
+  }
 
-.timetowork {
-  display: flex;
-  place-content: center;
-}
+  .timer {
+    display: flex;
+    place-content: center;
+  }
 
-.tasks {
-  display: flex;
-  place-content: center;
-  justify-content: space-between;
-  margin: 1rem 25rem 1rem 25rem;
-  padding: 1rem;
-  border-bottom: #c88480 solid 1px;
-}
+  .button {
+    display: flex;
+    place-content: center;
+  }
 
-.task_box {
-  display: flex;
-  place-content: center;
-  border: #c88480 dotted 1px;
-  border-radius: 3px;
-  margin: 1rem 25rem 1rem 25rem;
-  padding: 2rem;
-  background-color: #c94b46;
-}
+  .timetowork {
+    display: flex;
+    place-content: center;
+  }
 
-.task_box h4 {
-  color: #c88480;
-}
+  .tasks {
+    display: flex;
+    place-content: center;
+    justify-content: space-between;
+    margin: 1rem 25rem 1rem 25rem;
+    padding: 1rem;
+    border-bottom: #c88480 solid 1px;
+  }
 
-.timer {
-  padding: 4rem;
-  font-size: 3rem;
-}
+  .task_box {
+    display: flex;
+    place-content: center;
+    border: #c88480 dotted 1px;
+    border-radius: 3px;
+    margin: 1rem 25rem 1rem 25rem;
+    padding: 2rem;
+    background-color: #c94b46;
+  }
 
-.timer_box {
-  background-color: #df645f;
-  margin: 1rem 20rem 1rem 20rem;
-  border-radius: 5px;
-}
+  .task_box h4 {
+    color: #c88480;
+  }
 
-.timer_box button {
-  padding: 1rem 3rem 1rem 3rem;
-  margin: 1rem;
+  .timer {
+    padding: 4rem;
+    font-size: 3rem;
+  }
+
+  .timer_box {
+    background-color: #df645f;
+    margin: 1rem 20rem 1rem 20rem;
+    border-radius: 5px;
+  }
+
+  .timer_box button {
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 1rem;
+  }
 }
