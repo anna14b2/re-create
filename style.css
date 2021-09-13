@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+main > section {
+  grid-column: 2/3;
+}
+
+header {
+  background-color: #cb5b52;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem 1rem 6rem;
+}
+
+header h2 {
+  color: #fff;
+}
+
+header ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+header ul li a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  background-color: #cb5b52;
+  color: #fff;
+}
+
+.buttons ul {
+  list-style: none;
+  display: flex;
+  place-content: center;
+}
+
+.buttons ul li {
+  padding: 1rem;
+}
+
+.timer {
+  display: flex;
+  place-content: center;
+}
+
+.button {
+  display: flex;
+  place-content: center;
+}
+
+.timetowork {
+  display: flex;
+  place-content: center;
+}
+
+.tasks {
+  display: flex;
+  place-content: center;
+}
+
+.task_box {
+  display: flex;
+  place-content: center;
+}
