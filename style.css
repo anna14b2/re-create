@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: #db524d;
+  background-color: #fff;
+}
+
+main {
+  margin: -1rem;
 }
 
 h1,
@@ -17,41 +21,55 @@ h4 {
   font-family: "Nunito", sans-serif;
 }
 
+header {
+  background-color: #db524d;
+}
+
+header h2 {
+  color: #fff;
+}
+
+header ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+header ul li a {
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.red_section {
+  background-color: #db524d;
+  color: #fff;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  border: none;
+  border-radius: 2px;
+  color: #db524d;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
 @media (min-width: 700px) {
-  main {
+  /* main {
     display: grid;
     grid-template-columns: 1fr minmax(0, 1200px) 1fr;
   }
   main > section {
     grid-column: 2/3;
-  }
+  } */
 
   header {
-    background-color: #db524d;
     display: flex;
     justify-content: space-between;
     padding: 1rem 15rem 1rem 15rem;
     border-bottom: 1px solid #bb342b;
-  }
-
-  header h2 {
-    color: #fff;
-  }
-
-  header ul li {
-    list-style: none;
-    text-decoration: none;
-  }
-
-  header ul li a {
-    padding: 1rem;
-    text-decoration: none;
-    color: #fff;
-  }
-
-  section {
-    background-color: #db524d;
-    color: #fff;
+    margin: 0;
   }
 
   .buttons ul {
@@ -121,14 +139,4 @@ h4 {
     padding: 1rem 3rem 1rem 3rem;
     margin: 1rem;
   }
-}
-
-button {
-  font-family: "Nunito", sans-serif;
-  border: none;
-  border-radius: 2px;
-  color: #db524d;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 1.5rem;
 }
