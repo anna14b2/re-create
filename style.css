@@ -64,6 +64,14 @@ button {
     grid-column: 2/3;
   } */
 
+  .white_section {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+  }
+  .white_section > .white {
+    grid-column: 2/3;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
