@@ -17,8 +17,22 @@ h2,
 h3,
 a,
 li,
+p,
 h4 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: light;
 }
 
 header {
@@ -43,16 +57,30 @@ header ul li a {
 .red_section {
   background-color: #db524d;
   color: #fff;
+  padding: 2rem;
 }
 
 button {
-  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
   border: none;
   border-radius: 2px;
   color: #db524d;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 1.5rem;
+}
+
+.white {
+  margin: 2rem 5rem 2rem 5rem;
+}
+
+.white h2,
+.whatis_timer,
+.whatis_tech,
+.howto,
+.features,
+.download {
+  padding: 2rem;
 }
 
 @media (min-width: 700px) {
@@ -66,7 +94,7 @@ button {
 
   .white_section {
     display: grid;
-    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+    grid-template-columns: 1fr minmax(0, 900px) 1fr;
   }
   .white_section > .white {
     grid-column: 2/3;
