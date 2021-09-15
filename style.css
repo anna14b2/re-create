@@ -25,14 +25,23 @@ h4 {
 h2 {
   font-size: 2rem;
   font-weight: bolder;
+  color: #744749;
 }
 
 h3 {
   font-size: 1.5rem;
+  color: #744749;
 }
 
-p {
-  font-weight: light;
+.red_section h3 {
+  color: #fff;
+}
+
+p,
+.white_section li {
+  font-weight: normal;
+  line-height: 1.8rem;
+  color: #a09293;
 }
 
 header {
@@ -104,7 +113,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 1rem 15rem 1rem 15rem;
-    border-bottom: 1px solid #bb342b;
+    border-bottom: 1px solid #000;
     margin: 0;
   }
 
